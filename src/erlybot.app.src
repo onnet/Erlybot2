@@ -1,0 +1,23 @@
+{application, erlybot,
+ [{description, "Erlang Telegram Bot"},
+  {vsn, "0.5.0"},
+  {registered, []},
+  {mod, { erlybot_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    inets,
+    lager,
+    cowboy,
+    jsx
+   ]},
+  {env,[
+        {token, "YOUR_TOKEN_HERE"},
+        {ip, {127,0,0,1}},
+        {port, 7770}
+      ]},
+  {modules, []},
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
