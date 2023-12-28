@@ -3,6 +3,8 @@ erlybot
 
 Telegram bot example on Erlang
 
+https://www.pvsm.ru/erlang/254179
+
 Build
 -----
 
